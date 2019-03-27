@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2270DDE9224B071E00B638AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270DDE8224B071E00B638AF /* AppDelegate.swift */; };
+		2270DDEB224B071E00B638AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270DDEA224B071E00B638AF /* ViewController.swift */; };
+		2270DDEE224B071E00B638AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2270DDEC224B071E00B638AF /* Main.storyboard */; };
+		2270DDF0224B072200B638AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2270DDEF224B072200B638AF /* Assets.xcassets */; };
+		2270DDF3224B072200B638AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2270DDF1224B072200B638AF /* LaunchScreen.storyboard */; };
+		2270DDFE224B072200B638AF /* cresoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270DDFD224B072200B638AF /* cresoftTests.swift */; };
+		2270DE09224B072200B638AF /* cresoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270DE08224B072200B638AF /* cresoftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2270DDFA224B072200B638AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2270DDDD224B071E00B638AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2270DDE4224B071E00B638AF;
+			remoteInfo = cresoft;
+		};
+		2270DE05224B072200B638AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2270DDDD224B071E00B638AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2270DDE4224B071E00B638AF;
+			remoteInfo = cresoft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2270DDE5224B071E00B638AF /* cresoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cresoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2270DDE8224B071E00B638AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2270DDEA224B071E00B638AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2270DDED224B071E00B638AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2270DDEF224B072200B638AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2270DDF2224B072200B638AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2270DDF4224B072200B638AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2270DDF9224B072200B638AF /* cresoftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cresoftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2270DDFD224B072200B638AF /* cresoftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cresoftTests.swift; sourceTree = "<group>"; };
+		2270DDFF224B072200B638AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2270DE04224B072200B638AF /* cresoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cresoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2270DE08224B072200B638AF /* cresoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cresoftUITests.swift; sourceTree = "<group>"; };
+		2270DE0A224B072200B638AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2270DDE2224B071E00B638AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2270DDF6224B072200B638AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2270DE01224B072200B638AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2270DDDC224B071E00B638AF = {
+			isa = PBXGroup;
+			children = (
+				2270DDE7224B071E00B638AF /* cresoft */,
+				2270DDFC224B072200B638AF /* cresoftTests */,
+				2270DE07224B072200B638AF /* cresoftUITests */,
+				2270DDE6224B071E00B638AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2270DDE6224B071E00B638AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2270DDE5224B071E00B638AF /* cresoft.app */,
+				2270DDF9224B072200B638AF /* cresoftTests.xctest */,
+				2270DE04224B072200B638AF /* cresoftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2270DDE7224B071E00B638AF /* cresoft */ = {
+			isa = PBXGroup;
+			children = (
+				2270DDE8224B071E00B638AF /* AppDelegate.swift */,
+				2270DDEA224B071E00B638AF /* ViewController.swift */,
+				2270DDEC224B071E00B638AF /* Main.storyboard */,
+				2270DDEF224B072200B638AF /* Assets.xcassets */,
+				2270DDF1224B072200B638AF /* LaunchScreen.storyboard */,
+				2270DDF4224B072200B638AF /* Info.plist */,
+			);
+			path = cresoft;
+			sourceTree = "<group>";
+		};
+		2270DDFC224B072200B638AF /* cresoftTests */ = {
+			isa = PBXGroup;
+			children = (
+				2270DDFD224B072200B638AF /* cresoftTests.swift */,
+				2270DDFF224B072200B638AF /* Info.plist */,
+			);
+			path = cresoftTests;
+			sourceTree = "<group>";
+		};
+		2270DE07224B072200B638AF /* cresoftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2270DE08224B072200B638AF /* cresoftUITests.swift */,
+				2270DE0A224B072200B638AF /* Info.plist */,
+			);
+			path = cresoftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2270DDE4224B071E00B638AF /* cresoft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2270DE0D224B072200B638AF /* Build configuration list for PBXNativeTarget "cresoft" */;
+			buildPhases = (
+				2270DDE1224B071E00B638AF /* Sources */,
+				2270DDE2224B071E00B638AF /* Frameworks */,
+				2270DDE3224B071E00B638AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cresoft;
+			productName = cresoft;
+			productReference = 2270DDE5224B071E00B638AF /* cresoft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2270DDF8224B072200B638AF /* cresoftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2270DE10224B072200B638AF /* Build configuration list for PBXNativeTarget "cresoftTests" */;
+			buildPhases = (
+				2270DDF5224B072200B638AF /* Sources */,
+				2270DDF6224B072200B638AF /* Frameworks */,
+				2270DDF7224B072200B638AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2270DDFB224B072200B638AF /* PBXTargetDependency */,
+			);
+			name = cresoftTests;
+			productName = cresoftTests;
+			productReference = 2270DDF9224B072200B638AF /* cresoftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2270DE03224B072200B638AF /* cresoftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2270DE13224B072200B638AF /* Build configuration list for PBXNativeTarget "cresoftUITests" */;
+			buildPhases = (
+				2270DE00224B072200B638AF /* Sources */,
+				2270DE01224B072200B638AF /* Frameworks */,
+				2270DE02224B072200B638AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2270DE06224B072200B638AF /* PBXTargetDependency */,
+			);
+			name = cresoftUITests;
+			productName = cresoftUITests;
+			productReference = 2270DE04224B072200B638AF /* cresoftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2270DDDD224B071E00B638AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Daniel Alexis Moreno Herrera";
+				TargetAttributes = {
+					2270DDE4224B071E00B638AF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2270DDF8224B072200B638AF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2270DDE4224B071E00B638AF;
+					};
+					2270DE03224B072200B638AF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2270DDE4224B071E00B638AF;
+					};
+				};
+			};
+			buildConfigurationList = 2270DDE0224B071E00B638AF /* Build configuration list for PBXProject "cresoft" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2270DDDC224B071E00B638AF;
+			productRefGroup = 2270DDE6224B071E00B638AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2270DDE4224B071E00B638AF /* cresoft */,
+				2270DDF8224B072200B638AF /* cresoftTests */,
+				2270DE03224B072200B638AF /* cresoftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2270DDE3224B071E00B638AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2270DDF3224B072200B638AF /* LaunchScreen.storyboard in Resources */,
+				2270DDF0224B072200B638AF /* Assets.xcassets in Resources */,
+				2270DDEE224B071E00B638AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2270DDF7224B072200B638AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2270DE02224B072200B638AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2270DDE1224B071E00B638AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2270DDEB224B071E00B638AF /* ViewController.swift in Sources */,
+				2270DDE9224B071E00B638AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2270DDF5224B072200B638AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2270DDFE224B072200B638AF /* cresoftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2270DE00224B072200B638AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2270DE09224B072200B638AF /* cresoftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2270DDFB224B072200B638AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2270DDE4224B071E00B638AF /* cresoft */;
+			targetProxy = 2270DDFA224B072200B638AF /* PBXContainerItemProxy */;
+		};
+		2270DE06224B072200B638AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2270DDE4224B071E00B638AF /* cresoft */;
+			targetProxy = 2270DE05224B072200B638AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2270DDEC224B071E00B638AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2270DDED224B071E00B638AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2270DDF1224B072200B638AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2270DDF2224B072200B638AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2270DE0B224B072200B638AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2270DE0C224B072200B638AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2270DE0E224B072200B638AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37P2AKM476;
+				INFOPLIST_FILE = cresoft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.cresoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2270DE0F224B072200B638AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37P2AKM476;
+				INFOPLIST_FILE = cresoft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.cresoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2270DE11224B072200B638AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37P2AKM476;
+				INFOPLIST_FILE = cresoftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.cresoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cresoft.app/cresoft";
+			};
+			name = Debug;
+		};
+		2270DE12224B072200B638AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37P2AKM476;
+				INFOPLIST_FILE = cresoftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.cresoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cresoft.app/cresoft";
+			};
+			name = Release;
+		};
+		2270DE14224B072200B638AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37P2AKM476;
+				INFOPLIST_FILE = cresoftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.cresoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cresoft;
+			};
+			name = Debug;
+		};
+		2270DE15224B072200B638AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37P2AKM476;
+				INFOPLIST_FILE = cresoftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.cresoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cresoft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2270DDE0224B071E00B638AF /* Build configuration list for PBXProject "cresoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2270DE0B224B072200B638AF /* Debug */,
+				2270DE0C224B072200B638AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2270DE0D224B072200B638AF /* Build configuration list for PBXNativeTarget "cresoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2270DE0E224B072200B638AF /* Debug */,
+				2270DE0F224B072200B638AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2270DE10224B072200B638AF /* Build configuration list for PBXNativeTarget "cresoftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2270DE11224B072200B638AF /* Debug */,
+				2270DE12224B072200B638AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2270DE13224B072200B638AF /* Build configuration list for PBXNativeTarget "cresoftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2270DE14224B072200B638AF /* Debug */,
+				2270DE15224B072200B638AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2270DDDD224B071E00B638AF /* Project object */;
+}
