@@ -21,6 +21,7 @@
 		22248D89226AD40700183652 /* Perfil Banner iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 22248D87226AD40700183652 /* Perfil Banner iOS.png */; };
 		22248D8A226AD40700183652 /* Cursos Banner iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 22248D88226AD40700183652 /* Cursos Banner iOS.png */; };
 		22248DCF226C279500183652 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22248DCD226C279500183652 /* Model.xcdatamodeld */; };
+		22248DD3226C515300183652 /* NewQuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22248DD2226C515300183652 /* NewQuestionController.swift */; };
 		2270DDE9224B071E00B638AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270DDE8224B071E00B638AF /* AppDelegate.swift */; };
 		2270DDEB224B071E00B638AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270DDEA224B071E00B638AF /* ViewController.swift */; };
 		2270DDEE224B071E00B638AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2270DDEC224B071E00B638AF /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 		22248D87226AD40700183652 /* Perfil Banner iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Perfil Banner iOS.png"; path = "../../../Downloads/Perfil Banner iOS.png"; sourceTree = "<group>"; };
 		22248D88226AD40700183652 /* Cursos Banner iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cursos Banner iOS.png"; path = "../../../Downloads/Cursos Banner iOS.png"; sourceTree = "<group>"; };
 		22248DCE226C279500183652 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		22248DD2226C515300183652 /* NewQuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuestionController.swift; sourceTree = "<group>"; };
 		2270DDE5224B071E00B638AF /* cresoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cresoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2270DDE8224B071E00B638AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2270DDEA224B071E00B638AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 		2270DDE7224B071E00B638AF /* cresoft */ = {
 			isa = PBXGroup;
 			children = (
+				22248DD2226C515300183652 /* NewQuestionController.swift */,
 				2270DDE8224B071E00B638AF /* AppDelegate.swift */,
 				22248DCD226C279500183652 /* Model.xcdatamodeld */,
 				2270DDEA224B071E00B638AF /* ViewController.swift */,
@@ -319,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22248DD3226C515300183652 /* NewQuestionController.swift in Sources */,
 				2270DDEB224B071E00B638AF /* ViewController.swift in Sources */,
 				2270DDE9224B071E00B638AF /* AppDelegate.swift in Sources */,
 				22248DCF226C279500183652 /* Model.xcdatamodeld in Sources */,
