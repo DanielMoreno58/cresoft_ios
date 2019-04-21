@@ -17,6 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Set Navigation Bar text color
+        UINavigationBar.appearance().tintColor = UIColor.white
+        
+        // Set Navigation Bar to Image
+        let navBgImage:UIImage = UIImage(named: "Banner_principal.png")!
+        UINavigationBar.appearance().setBackgroundImage(navBgImage, for: .default)
+        
         return true
     }
 

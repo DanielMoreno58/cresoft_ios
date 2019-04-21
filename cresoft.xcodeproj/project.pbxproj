@@ -17,7 +17,7 @@
 		22248D7922642F6900183652 /* foco 50.png in Resources */ = {isa = PBXBuildFile; fileRef = 22248D7622642F6900183652 /* foco 50.png */; };
 		22248D7A22642F6900183652 /* foco 25.png in Resources */ = {isa = PBXBuildFile; fileRef = 22248D7722642F6900183652 /* foco 25.png */; };
 		22248D82226A79AA00183652 /* Foro Banner iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 22248D81226A79AA00183652 /* Foro Banner iOS.png */; };
-		22248D86226A86FE00183652 /* Banner principal.png in Resources */ = {isa = PBXBuildFile; fileRef = 22248D85226A86FD00183652 /* Banner principal.png */; };
+		22248D86226A86FE00183652 /* Banner_principal.png in Resources */ = {isa = PBXBuildFile; fileRef = 22248D85226A86FD00183652 /* Banner_principal.png */; };
 		22248D89226AD40700183652 /* Perfil Banner iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 22248D87226AD40700183652 /* Perfil Banner iOS.png */; };
 		22248D8A226AD40700183652 /* Cursos Banner iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 22248D88226AD40700183652 /* Cursos Banner iOS.png */; };
 		22248DCF226C279500183652 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22248DCD226C279500183652 /* Model.xcdatamodeld */; };
@@ -58,7 +58,7 @@
 		22248D7622642F6900183652 /* foco 50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "foco 50.png"; path = "../../../Downloads/foco 50.png"; sourceTree = "<group>"; };
 		22248D7722642F6900183652 /* foco 25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "foco 25.png"; path = "../../../Downloads/foco 25.png"; sourceTree = "<group>"; };
 		22248D81226A79AA00183652 /* Foro Banner iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Foro Banner iOS.png"; path = "../../../Downloads/Foro Banner iOS.png"; sourceTree = "<group>"; };
-		22248D85226A86FD00183652 /* Banner principal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Banner principal.png"; path = "../../../Downloads/Banner principal.png"; sourceTree = "<group>"; };
+		22248D85226A86FD00183652 /* Banner_principal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Banner_principal.png; path = ../../../Downloads/Banner_principal.png; sourceTree = "<group>"; };
 		22248D87226AD40700183652 /* Perfil Banner iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Perfil Banner iOS.png"; path = "../../../Downloads/Perfil Banner iOS.png"; sourceTree = "<group>"; };
 		22248D88226AD40700183652 /* Cursos Banner iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cursos Banner iOS.png"; path = "../../../Downloads/Cursos Banner iOS.png"; sourceTree = "<group>"; };
 		22248DCE226C279500183652 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 				22248D7622642F6900183652 /* foco 50.png */,
 				22248D7522642F6900183652 /* foco 75.png */,
 				22248D81226A79AA00183652 /* Foro Banner iOS.png */,
-				22248D85226A86FD00183652 /* Banner principal.png */,
+				22248D85226A86FD00183652 /* Banner_principal.png */,
 				22248D88226AD40700183652 /* Cursos Banner iOS.png */,
 				22248D87226AD40700183652 /* Perfil Banner iOS.png */,
 			);
@@ -290,7 +290,7 @@
 				22248D8A226AD40700183652 /* Cursos Banner iOS.png in Resources */,
 				22248D6E22642CFA00183652 /* cursos 50.png in Resources */,
 				22248D7222642DD600183652 /* perfil 50.png in Resources */,
-				22248D86226A86FE00183652 /* Banner principal.png in Resources */,
+				22248D86226A86FE00183652 /* Banner_principal.png in Resources */,
 				22248D7822642F6900183652 /* foco 75.png in Resources */,
 				22248D82226A79AA00183652 /* Foro Banner iOS.png in Resources */,
 				22248D7322642DD600183652 /* perfil 75.png in Resources */,
