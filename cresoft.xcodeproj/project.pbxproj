@@ -20,6 +20,7 @@
 		22248D86226A86FE00183652 /* Banner principal.png in Resources */ = {isa = PBXBuildFile; fileRef = 22248D85226A86FD00183652 /* Banner principal.png */; };
 		22248D89226AD40700183652 /* Perfil Banner iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 22248D87226AD40700183652 /* Perfil Banner iOS.png */; };
 		22248D8A226AD40700183652 /* Cursos Banner iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 22248D88226AD40700183652 /* Cursos Banner iOS.png */; };
+		22248DCF226C279500183652 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22248DCD226C279500183652 /* Model.xcdatamodeld */; };
 		2270DDE9224B071E00B638AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270DDE8224B071E00B638AF /* AppDelegate.swift */; };
 		2270DDEB224B071E00B638AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270DDEA224B071E00B638AF /* ViewController.swift */; };
 		2270DDEE224B071E00B638AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2270DDEC224B071E00B638AF /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 		22248D85226A86FD00183652 /* Banner principal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Banner principal.png"; path = "../../../Downloads/Banner principal.png"; sourceTree = "<group>"; };
 		22248D87226AD40700183652 /* Perfil Banner iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Perfil Banner iOS.png"; path = "../../../Downloads/Perfil Banner iOS.png"; sourceTree = "<group>"; };
 		22248D88226AD40700183652 /* Cursos Banner iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cursos Banner iOS.png"; path = "../../../Downloads/Cursos Banner iOS.png"; sourceTree = "<group>"; };
+		22248DCE226C279500183652 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		2270DDE5224B071E00B638AF /* cresoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cresoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2270DDE8224B071E00B638AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2270DDEA224B071E00B638AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				2270DDE8224B071E00B638AF /* AppDelegate.swift */,
+				22248DCD226C279500183652 /* Model.xcdatamodeld */,
 				2270DDEA224B071E00B638AF /* ViewController.swift */,
 				2270DDEC224B071E00B638AF /* Main.storyboard */,
 				2270DDEF224B072200B638AF /* Assets.xcassets */,
@@ -318,6 +321,7 @@
 			files = (
 				2270DDEB224B071E00B638AF /* ViewController.swift in Sources */,
 				2270DDE9224B071E00B638AF /* AppDelegate.swift in Sources */,
+				22248DCF226C279500183652 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +650,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22248DCD226C279500183652 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22248DCE226C279500183652 /* Model.xcdatamodel */,
+			);
+			currentVersion = 22248DCE226C279500183652 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2270DDDD224B071E00B638AF /* Project object */;
 }
