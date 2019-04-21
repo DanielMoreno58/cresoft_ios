@@ -153,6 +153,7 @@
                     </view>
                     <connections>
                         <outlet property="question_content" destination="WIv-62-OHp" id="7lQ-g1-HCB"/>
+                        <outlet property="question_title" destination="IE5-my-GCR" id="98H-3p-0Ip"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B6h-w6-aNV" userLabel="First Responder" sceneMemberID="firstResponder"/>

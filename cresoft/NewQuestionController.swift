@@ -8,9 +8,10 @@
 
 import UIKit
 
-class NewQuestionController: UIViewController {
+class NewQuestionController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var question_content: UITextView!
+    @IBOutlet var question_title: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,11 @@ class NewQuestionController: UIViewController {
         
         self.question_content.delegate = self as? UITextViewDelegate;
         self.addDoneButtonOnKeyboard()
+        
+        question_title.delegate = self
+    
     }
+    
     
     func addDoneButtonOnKeyboard() {
         let doneToolbar: UIToolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: 320, height: 50))
@@ -42,6 +47,11 @@ class NewQuestionController: UIViewController {
     
     @objc func doneButtonAction() {
         self.question_content.resignFirstResponder()
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 
 }
