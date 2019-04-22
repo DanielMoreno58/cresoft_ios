@@ -26,6 +26,7 @@
 		22248DDB226D24B800183652 /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22248DDA226D24B800183652 /* PersistanceService.swift */; };
 		22248DDE226D295900183652 /* Question+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22248DDC226D295900183652 /* Question+CoreDataClass.swift */; };
 		22248DDF226D295900183652 /* Question+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22248DDD226D295900183652 /* Question+CoreDataProperties.swift */; };
+		22248DE1226D9EBC00183652 /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22248DE0226D9EBB00183652 /* QuestionController.swift */; };
 		2270DDE9224B071E00B638AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270DDE8224B071E00B638AF /* AppDelegate.swift */; };
 		2270DDEB224B071E00B638AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270DDEA224B071E00B638AF /* ViewController.swift */; };
 		2270DDEE224B071E00B638AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2270DDEC224B071E00B638AF /* Main.storyboard */; };
@@ -72,6 +73,7 @@
 		22248DDA226D24B800183652 /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
 		22248DDC226D295900183652 /* Question+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question+CoreDataClass.swift"; sourceTree = "<group>"; };
 		22248DDD226D295900183652 /* Question+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		22248DE0226D9EBB00183652 /* QuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
 		2270DDE5224B071E00B638AF /* cresoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cresoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2270DDE8224B071E00B638AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2270DDEA224B071E00B638AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				22248DCD226C279500183652 /* Model.xcdatamodeld */,
 				2270DDEA224B071E00B638AF /* ViewController.swift */,
 				2270DDEC224B071E00B638AF /* Main.storyboard */,
+				22248DE0226D9EBB00183652 /* QuestionController.swift */,
 				22248DDA226D24B800183652 /* PersistanceService.swift */,
 				22248DD8226D229800183652 /* ForoController.swift */,
 				2270DDEF224B072200B638AF /* Assets.xcassets */,
@@ -336,6 +339,7 @@
 			files = (
 				22248DD9226D229800183652 /* ForoController.swift in Sources */,
 				22248DDB226D24B800183652 /* PersistanceService.swift in Sources */,
+				22248DE1226D9EBC00183652 /* QuestionController.swift in Sources */,
 				22248DDE226D295900183652 /* Question+CoreDataClass.swift in Sources */,
 				22248DD3226C515300183652 /* NewQuestionController.swift in Sources */,
 				2270DDEB224B071E00B638AF /* ViewController.swift in Sources */,

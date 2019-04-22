@@ -38,7 +38,7 @@ class ForoController: UIViewController {
 
 }
 
-extension ForoController: UITableViewDataSource {
+extension ForoController: UITableViewDataSource, UITableViewDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -52,4 +52,5 @@ extension ForoController: UITableViewDataSource {
         cell.textLabel?.text = questions[indexPath.row].name
         return cell
     }
+
 }
