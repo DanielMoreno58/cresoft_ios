@@ -22,6 +22,10 @@
 		22248D8A226AD40700183652 /* Cursos Banner iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 22248D88226AD40700183652 /* Cursos Banner iOS.png */; };
 		22248DCF226C279500183652 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22248DCD226C279500183652 /* Model.xcdatamodeld */; };
 		22248DD3226C515300183652 /* NewQuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22248DD2226C515300183652 /* NewQuestionController.swift */; };
+		22248DD9226D229800183652 /* ForoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22248DD8226D229800183652 /* ForoController.swift */; };
+		22248DDB226D24B800183652 /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22248DDA226D24B800183652 /* PersistanceService.swift */; };
+		22248DDE226D295900183652 /* Question+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22248DDC226D295900183652 /* Question+CoreDataClass.swift */; };
+		22248DDF226D295900183652 /* Question+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22248DDD226D295900183652 /* Question+CoreDataProperties.swift */; };
 		2270DDE9224B071E00B638AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270DDE8224B071E00B638AF /* AppDelegate.swift */; };
 		2270DDEB224B071E00B638AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270DDEA224B071E00B638AF /* ViewController.swift */; };
 		2270DDEE224B071E00B638AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2270DDEC224B071E00B638AF /* Main.storyboard */; };
@@ -64,6 +68,10 @@
 		22248D88226AD40700183652 /* Cursos Banner iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cursos Banner iOS.png"; path = "../../../Downloads/Cursos Banner iOS.png"; sourceTree = "<group>"; };
 		22248DCE226C279500183652 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		22248DD2226C515300183652 /* NewQuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuestionController.swift; sourceTree = "<group>"; };
+		22248DD8226D229800183652 /* ForoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForoController.swift; sourceTree = "<group>"; };
+		22248DDA226D24B800183652 /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
+		22248DDC226D295900183652 /* Question+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question+CoreDataClass.swift"; sourceTree = "<group>"; };
+		22248DDD226D295900183652 /* Question+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2270DDE5224B071E00B638AF /* cresoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cresoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2270DDE8224B071E00B638AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2270DDEA224B071E00B638AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,11 +156,15 @@
 		2270DDE7224B071E00B638AF /* cresoft */ = {
 			isa = PBXGroup;
 			children = (
+				22248DDC226D295900183652 /* Question+CoreDataClass.swift */,
+				22248DDD226D295900183652 /* Question+CoreDataProperties.swift */,
 				22248DD2226C515300183652 /* NewQuestionController.swift */,
 				2270DDE8224B071E00B638AF /* AppDelegate.swift */,
 				22248DCD226C279500183652 /* Model.xcdatamodeld */,
 				2270DDEA224B071E00B638AF /* ViewController.swift */,
 				2270DDEC224B071E00B638AF /* Main.storyboard */,
+				22248DDA226D24B800183652 /* PersistanceService.swift */,
+				22248DD8226D229800183652 /* ForoController.swift */,
 				2270DDEF224B072200B638AF /* Assets.xcassets */,
 				2270DDF1224B072200B638AF /* LaunchScreen.storyboard */,
 				2270DDF4224B072200B638AF /* Info.plist */,
@@ -322,8 +334,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22248DD9226D229800183652 /* ForoController.swift in Sources */,
+				22248DDB226D24B800183652 /* PersistanceService.swift in Sources */,
+				22248DDE226D295900183652 /* Question+CoreDataClass.swift in Sources */,
 				22248DD3226C515300183652 /* NewQuestionController.swift in Sources */,
 				2270DDEB224B071E00B638AF /* ViewController.swift in Sources */,
+				22248DDF226D295900183652 /* Question+CoreDataProperties.swift in Sources */,
 				2270DDE9224B071E00B638AF /* AppDelegate.swift in Sources */,
 				22248DCF226C279500183652 /* Model.xcdatamodeld in Sources */,
 			);

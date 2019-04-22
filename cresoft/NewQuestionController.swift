@@ -7,11 +7,26 @@
 //
 
 import UIKit
+import CoreData
 
 class NewQuestionController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var question_content: UITextView!
     @IBOutlet var question_title: UITextField!
+    
+    
+    @IBAction func AddQuestion(_ sender: UIButton) {
+        let entity = NSEntityDescription.entity(forEntityName: "Question", in: PersistanceService.context)
+        let newQuestion = NSManagedObject(entity: entity!, insertInto: PersistanceService.context)
+        newQuestion.setValue(question_title.text, forKey: "name")
+        newQuestion.setValue(question_content.text, forKey: "content")
+        
+        do {
+            try PersistanceService.context.save()
+        } catch {
+            print("Failed saving")
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

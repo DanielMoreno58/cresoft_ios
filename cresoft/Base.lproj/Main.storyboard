@@ -68,7 +68,7 @@
         <!--Foro-->
         <scene sceneID="71Y-4h-DUf">
             <objects>
-                <viewController title="Foro" id="Vkr-eb-wOv" customClass="ViewController" customModule="cresoft" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Foro" id="Vkr-eb-wOv" customClass="ForoController" customModule="cresoft" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mfK-cU-po3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -103,6 +103,9 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Vkr-eb-wOv" id="PVh-k7-nRT"/>
+                                </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="El9-3g-gKQ">
                                 <rect key="frame" x="20" y="163" width="176" height="33"/>
@@ -111,6 +114,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="AddQuestion:" destination="dZK-Np-gN8" eventType="touchDown" id="7Ho-Dc-cnF"/>
                                     <segue destination="GiC-Gb-T0H" kind="show" id="uwm-QP-XV3"/>
                                 </connections>
                             </button>
@@ -125,8 +129,12 @@
                     <navigationItem key="navigationItem" id="ARu-Cr-UC7">
                         <barButtonItem key="backBarButtonItem" title="Atrás" id="zPJ-1a-pG9"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="QuestionList" destination="tXz-wa-qXj" id="teh-AF-rxx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lIl-M3-yS4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="dZK-Np-gN8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1662.3188405797102" y="-547.01086956521749"/>
         </scene>
@@ -177,6 +185,9 @@
                                 <state key="normal" title="Preguntar" backgroundImage="Banner_principal.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="AddQuestion:" destination="GiC-Gb-T0H" eventType="touchUpInside" id="Ibl-X1-U7M"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
