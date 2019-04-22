@@ -7,32 +7,20 @@
 //
 
 import UIKit
-import CoreData
+import RealmSwift
 
 class ForoController: UIViewController {
     
     // Table View component
     @IBOutlet weak var QuestionList: UITableView!
     
-    var questions = [Question]()
+    var questions: Results<Question>!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Question")
-        request.returnsObjectsAsFaults = false
-        do {
-            let result = try PersistanceService.context.fetch(request)
-            for data in result as! [NSManagedObject] {
-                let question = Question(context: PersistanceService.context)
-                question.name = data.value(forKey: "name") as! String
-                questions.append(question)
-                print(data.value(forKey: "name") as! String)
-            }
-        } catch {
-            print("Failed")
-        }
-
+        let realm = try! Realm()
+        questions = realm.objects(Question.self)
         // Do any additional setup after loading the view.
     }
 

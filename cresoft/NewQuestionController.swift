@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import CoreData
+import RealmSwift
 
 class NewQuestionController: UIViewController, UITextFieldDelegate {
 
@@ -16,16 +16,17 @@ class NewQuestionController: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func AddQuestion(_ sender: UIButton) {
-        let entity = NSEntityDescription.entity(forEntityName: "Question", in: PersistanceService.context)
-        let newQuestion = NSManagedObject(entity: entity!, insertInto: PersistanceService.context)
-        newQuestion.setValue(question_title.text, forKey: "name")
-        newQuestion.setValue(question_content.text, forKey: "content")
         
-        do {
-            try PersistanceService.context.save()
-        } catch {
-            print("Failed saving")
+        let realm = try! Realm()
+        
+        var question = Question()
+        question.name = "Pregunta #1"
+        question.content = "Contenido #1"
+        
+        try! realm.write {
+            realm.add(question)
         }
+        
     }
     
     override func viewDidLoad() {
