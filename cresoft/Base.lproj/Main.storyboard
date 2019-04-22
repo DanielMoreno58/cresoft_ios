@@ -105,6 +105,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="Vkr-eb-wOv" id="PVh-k7-nRT"/>
+                                    <outlet property="delegate" destination="Vkr-eb-wOv" id="hgb-K1-WUL"/>
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="El9-3g-gKQ">

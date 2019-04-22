@@ -24,6 +24,9 @@ class ForoController: UIViewController {
         do {
             let result = try PersistanceService.context.fetch(request)
             for data in result as! [NSManagedObject] {
+                let question = Question(context: PersistanceService.context)
+                question.name = data.value(forKey: "name") as! String
+                questions.append(question)
                 print(data.value(forKey: "name") as! String)
             }
         } catch {
@@ -45,7 +48,7 @@ extension ForoController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: nil)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "preguntas", for: indexPath)
         cell.textLabel?.text = questions[indexPath.row].name
         return cell
     }
