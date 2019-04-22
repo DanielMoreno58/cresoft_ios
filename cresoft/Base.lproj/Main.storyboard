@@ -96,6 +96,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="EVS-Oo-Rx1"/>
                     </view>
+                    <connections>
+                        <outlet property="QuestionContent" destination="cvz-Ja-tMt" id="Bnp-9D-gVw"/>
+                        <outlet property="QuestionTitle" destination="9Gd-Dd-pOr" id="Z83-Yx-fKi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WSr-xd-8qs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

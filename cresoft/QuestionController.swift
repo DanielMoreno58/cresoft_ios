@@ -10,6 +10,9 @@ import UIKit
 
 class QuestionController: UIViewController {
 
+    @IBOutlet weak var QuestionTitle: UITextField!
+    @IBOutlet weak var QuestionContent: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
