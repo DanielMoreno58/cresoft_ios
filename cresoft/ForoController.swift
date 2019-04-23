@@ -49,10 +49,9 @@ extension ForoController: UITableViewDataSource, UITableViewDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        let indexPath = QuestionList.indexPathForSelectedRow
-        var vc = segue.destination as! QuestionController
-        
         if segue.identifier == "segueForo" {
+            let indexPath = QuestionList.indexPathForSelectedRow
+            var vc = segue.destination as! QuestionController
             vc.index = indexPath?.row
         }
         

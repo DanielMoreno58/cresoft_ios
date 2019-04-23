@@ -151,7 +151,7 @@
                                 </state>
                                 <connections>
                                     <action selector="AddQuestion:" destination="dZK-Np-gN8" eventType="touchDown" id="7Ho-Dc-cnF"/>
-                                    <segue destination="GiC-Gb-T0H" kind="show" id="uwm-QP-XV3"/>
+                                    <segue destination="GiC-Gb-T0H" kind="show" identifier="segueNewQuestion" id="uwm-QP-XV3"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Foro Banner iOS.png" translatesAutoresizingMaskIntoConstraints="NO" id="3nH-du-kLA">
@@ -223,6 +223,7 @@
                                 </state>
                                 <connections>
                                     <action selector="AddQuestion:" destination="GiC-Gb-T0H" eventType="touchUpInside" id="Ibl-X1-U7M"/>
+                                    <segue destination="Vkr-eb-wOv" kind="show" id="HwR-Xk-lny"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -439,4 +440,7 @@
         <image name="foco 25.png" width="25" height="25"/>
         <image name="perfil 25.png" width="25" height="25"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="HwR-Xk-lny"/>
+    </inferredMetricsTieBreakers>
 </document>
