@@ -22,6 +22,8 @@ class ForoController: UIViewController {
         let realm = try! Realm()
         questions = realm.objects(Question.self)
         // Do any additional setup after loading the view.
+        realm.autorefresh = true
+        
     }
 
 }

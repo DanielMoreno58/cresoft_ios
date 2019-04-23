@@ -20,8 +20,8 @@ class NewQuestionController: UIViewController, UITextFieldDelegate {
         let realm = try! Realm()
         
         var question = Question()
-        question.name = "Pregunta #1"
-        question.content = "Contenido #1"
+        question.name = question_title.text
+        question.content = question_content.text
         
         try! realm.write {
             realm.add(question)
