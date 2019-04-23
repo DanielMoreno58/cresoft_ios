@@ -11,6 +11,7 @@ import UIKit
 class CourseController: UIViewController {
     
     var courses = ["Mi primer videojuego en JS", "¿Como crear mi propia pagina web?"]
+    var urlArray = ["http://google.com", "https://apple.com"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,17 @@ class CourseController: UIViewController {
 }
 
 extension CourseController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        let urlString = self.urlArray[indexPath.row]
+        print(urlString)
+        if let url = URL(string: urlString)
+        {
+            UIApplication.shared.openURL(url)
+        }
+
+    }
+
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
