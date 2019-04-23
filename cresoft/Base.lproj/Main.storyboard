@@ -158,7 +158,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.34509803919999998" green="0.47058823529999999" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
-                                            <segue destination="Z2b-VG-1sI" kind="show" identifier="segueForo" id="ePg-qJ-Rm7"/>
+                                            <segue destination="Z2b-VG-1sI" kind="show" identifier="segueForo" id="mSY-aJ-PSS"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

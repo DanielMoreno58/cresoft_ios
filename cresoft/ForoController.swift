@@ -14,6 +14,8 @@ class ForoController: UIViewController {
     // Table View component
     @IBOutlet weak var QuestionList: UITableView!
     
+    var selectedRow: Int?
+    
     var questions: Results<Question>!
     
     override func viewDidLoad() {
@@ -37,8 +39,23 @@ extension ForoController: UITableViewDataSource, UITableViewDelegate {
         return 120
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedRow = indexPath.row
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return questions.count
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let indexPath = QuestionList.indexPathForSelectedRow
+        var vc = segue.destination as! QuestionController
+        
+        if segue.identifier == "segueForo" {
+            vc.index = indexPath?.row
+        }
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
