@@ -10,8 +10,8 @@ import UIKit
 
 class CourseController: UIViewController {
     
-    var courses = ["Mi primer videojuego en JS", "¿Como crear mi propia pagina web?"]
-    var urlArray = ["http://google.com", "https://apple.com"]
+    var courses = ["Mi primer videojuego en JS", "¿Como crear mi propia pagina web?", "Curso de Wordpress", "Programacion orientada a objetos"]
+    var urlArray = ["https://www.youtube.com/watch?v=dSzmn4zSCA4", "https://www.youtube.com/watch?v=9d2BJsxff-g&list=PLN9W6BC54TJI6mlpAT-b7nDkpHbZp73i4", "https://www.youtube.com/watch?v=JFJdmHzNwfQ", "https://www.youtube.com/watch?v=ndeSY4hIG38&list=PLM-p96nOrGcYimrpjzUC_2upJJWFoFeur"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
